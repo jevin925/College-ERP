@@ -125,6 +125,11 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/2.1/howto/static-files/
 
+CSRF_TRUSTED_ORIGINS = [
+    "https://test-13-56qxb.techera.site",
+   
+]
+
 STATIC_URL = '/static/'
 
 LOGIN_REDIRECT_URL = '/'
